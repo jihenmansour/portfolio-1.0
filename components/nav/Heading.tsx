@@ -6,12 +6,12 @@ export const Heading = () => {
   return (
     <header className={styles.heading}>
       <MyLinks />
-      {/* <div className={styles.headingButtons}> */}
+      <div className={styles.headingButtons}> 
 
-      {/* <OutlineButton onClick={() => window.open("/Jihen Mansour.pdf")}>
+      <OutlineButton onClick={() => window.open("/Jihen Mansour Resume.pdf")}>
         My resume
-      </OutlineButton> */}
-      {/* </div> */}
+      </OutlineButton> 
+      </div>
     </header>
   );
 };

@@ -91,7 +91,7 @@ const projects = [
     imgSrc: "/projects/safe-harbor.png",
     projectLink: "https://safe-harbor.vercel.app/sign-in",
     code:"https://github.com/jihenmansour/SafeHarbor",
-    tech: ["Next.js", "Versel"],
+    tech: ["Next.js", "Vercel"],
     description:
       "Banking website for users to view transactions and account information.",
     modalContent: (
@@ -108,7 +108,7 @@ const projects = [
     title: "e-shopper",
     imgSrc: "/projects/e-shopper.png",
     code:"https://github.com/jihenmansour/e-shopper",
-    tech: ["Next.js", "Versel"],
+    tech: ["Next.js", "Vercel"],
     description:
       "E-commerce shopping admin dashboard.",
     modalContent: (
