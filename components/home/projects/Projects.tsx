@@ -87,6 +87,44 @@ const projects = [
     ),
   },
   {
+    title: "Access Flow",
+    imgSrc: "/projects/access-flow.png",
+    projectLink: "https://accessflow.onrender.com/",
+    code:"https://github.com/jihenmansour/AccessFlow",
+    tech: ["React.js", "Express.js", "MongoDB", "Render"],
+    description:
+      "Authentication platform providing secure access.",
+    modalContent: (
+      <>
+        <p>
+        Access Flow is an authentication platform built with React.js, Express.js, and MongoDB. 
+        It features secure user access with email verification, login, and password reset, and is 
+        deployed on Render.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "e-shopper",
+    imgSrc: "/projects/e-shopper.png",
+    code:"https://github.com/jihenmansour/e-shopper",
+    projectLink: "https://e-shopper-frontend.vercel.app/",
+    tech: ["Next.js","Express.js","MongoDB", "Vercel"],
+    description:
+      "E-commerce shopping admin dashboard.",
+    modalContent: (
+      <>
+        <p>
+        e-shopper is an e-commerce admin dashboard built using MongoDB, Express.js, Node.js and Next.js. 
+        </p>
+
+        <p>
+        It provides comprehensive tools for managing products, processing orders, and handling users.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Safe-Harbor",
     imgSrc: "/projects/safe-harbor.png",
     projectLink: "https://safe-harbor.vercel.app/sign-in",
@@ -100,25 +138,6 @@ const projects = [
         Safe-Harbor is a banking website developed with Next.js and deployed on Vercel, 
         providing users with seamless access to view their transactions and account details, 
         ensuring a reliable and efficient banking experience.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "e-shopper",
-    imgSrc: "/projects/e-shopper.png",
-    code:"https://github.com/jihenmansour/e-shopper",
-    tech: ["Next.js", "Vercel"],
-    description:
-      "E-commerce shopping admin dashboard.",
-    modalContent: (
-      <>
-        <p>
-        e-shopper is an e-commerce admin dashboard built using MongoDB, Express.js, Node.js and Next.js. 
-        </p>
-
-        <p>
-        It provides comprehensive tools for managing products, processing orders, and handling users.
         </p>
       </>
     ),
